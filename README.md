@@ -4,6 +4,8 @@
 Terraform installed on your system. if not please read instructions here https://www.terraform.io/downloads.html.
 
 
+## Get Started
+
 This creates a security group, launch configuration, auto scaling group and an ELB. The user data for launch configuration installs Apache Tomcat & configures AJP and it listens on port 80.
 
 This terraform script uses Ubuntu 16.04 AMIs.
